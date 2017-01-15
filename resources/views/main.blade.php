@@ -37,7 +37,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Laravel Blog</a>
+                        <a class="navbar-brand" href="/">Laravel Blog</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,7 +75,6 @@
 
     <hr>
 
-    <p class="text-center">Copyright Dan Constantinescu - All rights reserved</p>
 
 </div>
 
