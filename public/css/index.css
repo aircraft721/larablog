@@ -1,3 +1,48 @@
-p {
-    font-size: 50px;
+
+.hero {
+    height: 400px;
+    background: url(hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3.125em;
+}
+
+.social-media {
+    margin-right: -15px;
+}
+
+.fa {
+    color: orangered;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-title:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid orangered;
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    border-radius: 300px;
+}
+
+.about-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ddd {
+    margin-top: 6em;
 }
