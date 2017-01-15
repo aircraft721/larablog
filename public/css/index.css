@@ -1,5 +1,5 @@
 body {
-    margin-top: 6em;
+    margin-top: 50px;
 }
 
 .hero {
@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 3.125em;
+
 }
 
 .social-media {
@@ -45,4 +46,6 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
 

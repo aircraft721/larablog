@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="{{ asset('css/index.css') }}" rel="stylesheet" type="text/css">
+    {!! Html::style('css/parsley.css') !!}
 
 
 
@@ -48,7 +49,7 @@
 
                         </ul>
 
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right navi">
                             <li class="meniu"><a href="/">Home</a></li>
                             <li class="meniu"><a href="/about">About</a></li>
                             <li class="meniu"><a href="/contact">Contact</a></li>
@@ -87,5 +88,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{!! Html::script('js/parsley.min.js') !!}
+
 </body>
 </html>
