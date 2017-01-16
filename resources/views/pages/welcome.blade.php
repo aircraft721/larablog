@@ -9,17 +9,22 @@
     <div class="row">
         <div class="col-md-12">
                 <h1>Welcome to my Blog</h1>
-                <p class="lead">Thank you for visiting</p>
+
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-8">
             <div class="post">
-                <h3>Post Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid animi blanditiis consequatur</p>
-                <a href="#" class="btn btn-primary btn-sm">Wassap</a>
+                <div class="date-post">JANUARY 16, 2017</div>
+                <div class="title-post">Title of the Post</div>
+                <div class="tags-post">Tags/Tags</div>
+                <img src="css/witcher.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur beatae consequuntur corporis distinctio, dolorem esse est iusto libero natus nostrum nulla obcaecati quaerat, quia quisquam recusandae tempore ullam voluptates!</p>
+                <div class="btn btn-primary btn-sm read-more center-block">Read More</div>
             </div>
+
+
         </div>
 
         <div class="col-md-3 col-md-offset-1">

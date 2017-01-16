@@ -49,11 +49,11 @@
 
                         </ul>
 
-                        <ul class="nav navbar-nav navbar-right navi">
+                        <ul class="nav navbar-nav navbar-right navi1">
                             <li class="meniu"><a href="/">Home</a></li>
                             <li class="meniu"><a href="/about">About</a></li>
                             <li class="meniu"><a href="/contact">Contact</a></li>
-                            <li class="social-media"><a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-media"><a href="https://www.facebook.com/dan.constantinescu.9"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li class="social-media"><a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li class="social-media"><a href="http://www.github.com"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                         </ul>
