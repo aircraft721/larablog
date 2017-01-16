@@ -21,7 +21,7 @@
                 <div class="tags-post">Tags/Tags</div>
                 <img src="css/witcher.png" alt="">
                 <p>{{ $post->body }}</p>
-                <div class="btn btn-primary btn-sm read-more center-block">Read More</div>
+
             </div>
 
 

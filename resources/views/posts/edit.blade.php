@@ -14,7 +14,7 @@
     </div>
 
     <div class="row">
-        {!! Form::model($post, array('route'=>['posts.update', $post->id])) !!}
+        {!! Form::model($post, array('route'=>['posts.update', $post->id], 'method'=>'PUT')) !!}
         <div class="col-md-8">
             <div class="post">
                 <div class="date-post">{{ strtoupper($post->created_at->toFormattedDateString()) }}</div>
@@ -44,8 +44,7 @@
                         {!! Html::linkRoute('posts.show','Cancel', array($post->id), array('class'=>'btn btn-danger btn-block')) !!}
                     </div>
                     <div class="col-sm-6">
-                        {!! Html::linkRoute('posts.update','Save Changes', array($post->id), array('class'=>'btn btn-success btn-block')) !!}
-
+                        {{ Form::submit('Save Changes', ['class'=>'btn btn-success btn-block']) }}
                     </div>
                 </div>
             </div>
