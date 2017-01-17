@@ -11,6 +11,13 @@
 |
 */
 
+//Authentication Routes
+Route::get('auth/login','Auth\AuthController@getLogin');
+Route::post('auth/login','Auth\AuthController@postLogin');
+Route::get('auth/logout','Auth\AuthController@getLogout');
+//Registration Routes
+Route::get('auth/register','Auth\AuthController@getRegister');
+Route::post('auth/register','Auth\AuthController@postRegister');
 
 Route::get('blog/{slug}',['as'=>'posts.single',
     'uses'=>'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');
