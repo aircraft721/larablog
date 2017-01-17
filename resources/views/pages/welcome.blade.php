@@ -15,15 +15,16 @@
 
     <div class="row">
         <div class="col-md-8">
+            @foreach($posts as $post)
             <div class="post">
                 <div class="date-post">JANUARY 16, 2017</div>
-                <div class="title-post">Title of the Post</div>
+                <div class="title-post">{{ $post->title }}</div>
                 <div class="tags-post">Tags/Tags</div>
                 <img src="css/witcher.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur beatae consequuntur corporis distinctio, dolorem esse est iusto libero natus nostrum nulla obcaecati quaerat, quia quisquam recusandae tempore ullam voluptates!</p>
-                <div class="btn btn-primary btn-sm read-more center-block">Read More</div>
+                <p>{{ str_limit(strip_tags($post->body),310) }}{{ strlen(strip_tags($post->body))>310 ? '' : '' }}</p>
+                <a href="{{ url('blog', $post->slug) }}" class="btn btn-primary btn-sm read-more center-block">Read More</a>
             </div>
-
+            @endforeach
 
         </div>
 

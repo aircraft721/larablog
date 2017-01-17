@@ -8,6 +8,7 @@ use App\Http\Requests;
 use Session;
 
 
+
 class PostController extends Controller
 {
 
@@ -32,11 +33,13 @@ class PostController extends Controller
         //we need to validate the data
         $this->validate($request, array(
             'title'=>'required|max:100',
+            'slug'=>'required|alpha_dash|min:5|max:100|unique:posts,slug',
             'body'=>'required'
         ));
         //store in the database
         $post = new Post;
         $post->title = $request->title;
+        $post->slug = $request->slug;
         $post->body = $request->body;
         $post->save();
         //sessions
@@ -63,13 +66,24 @@ class PostController extends Controller
     public function update(Request $request, $id)
     {
         //validate the data
-        $this->validate($request, array(
-            'title'=>'required|max:100',
-            'body'=>'required'
-        ));
+        $post = Post::find($id);
+        if($request->input('slug')==$post->slug){
+            $this->validate($request, array(
+                'title'=>'required|max:100',
+                'body'=>'required'
+            ));
+        }else{
+            $this->validate($request, array(
+                'title'=>'required|max:100',
+                'slug'=>'required|alpha_dash|min:5|max:100|unique:posts,slug',
+                'body'=>'required'
+            ));
+        }
+
         //save the data to the database
         $post = Post::find($id);
         $post->title = $request->input('title');
+        $post->slug = $request->input('slug');
         $post->body = $request->input('body');
         $post->save();
         //set flash data with success message
@@ -85,4 +99,8 @@ class PostController extends Controller
         Session::flash('success','The post was successfully deleted.');
         return redirect()->route('posts.index');
     }
+
+
+
+
 }

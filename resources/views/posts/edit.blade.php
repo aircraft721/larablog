@@ -6,21 +6,21 @@
 
     @include('partials._hero')
 
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Welcome to my Blog</h1>
 
-        </div>
-    </div>
 
     <div class="row">
         {!! Form::model($post, array('route'=>['posts.update', $post->id], 'method'=>'PUT')) !!}
         <div class="col-md-8">
             <div class="post">
                 <div class="date-post">{{ strtoupper($post->created_at->toFormattedDateString()) }}</div>
+                {{ Form::label('title','Title:') }}
                 <div class="title-post">{{ Form::text('title', null, ['class'=>'form-control']) }}</div>
+                {{ Form::label('slug','Slug:') }}
+                <div class="tags-post">{{ Form::text('slug', null, ['class'=>'form-control']) }}</div>
+                {{ Form::label('tags','Tags:') }}
                 <div class="tags-post">Tags/Tags</div>
                 <img src="css/witcher.png" alt="">
+                {{ Form::label('body','Body:') }}
                 <p>{{ Form::textarea('body',null, ['class'=>'form-control']) }}</p>
 
             </div>

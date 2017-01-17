@@ -30,6 +30,10 @@
         <div class="col-md-4">
             <div class="well">
                 <dl class="dl-horizontal">
+                    <label>Url:</label>
+                    <p><a href="{{ url('blog', $post->slug) }}">{{ url('blog', $post->slug) }}</a></p>
+                </dl>
+                <dl class="dl-horizontal">
                     <dt>Created At:</dt>
                     <dd>{{ strtoupper($post->created_at->toFormattedDateString()) }}</dd>
                 </dl>
@@ -48,6 +52,10 @@
                         {!! Form::submit('Delete',['class'=>'btn btn-danger btn-block']) !!}
 
                         {!! Form::close() !!}
+
+                    </div>
+                    <div class="col-md-12">
+                        <a href="{{ route('posts.index') }}" class="btn btn-default btn-block">Back to posts</a>
                     </div>
                 </div>
             </div>
