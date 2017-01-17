@@ -14,7 +14,7 @@
             <div class="post">
                 <div class="date-post">JANUARY 16, 2017</div>
                 <div class="title-post">{{ $post->title }}</div>
-                <div class="tags-post">Tags/Tags</div>
+                <div class="tags-post">Posted In: {{ $post->category->name}} </div>
                 <img src="css/witcher.png" alt="">
                 <p>{{ $post->body }}</p>
 
