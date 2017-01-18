@@ -1,7 +1,14 @@
 @extends('main')
 @section('title','| Create New Post')
 
-
+@section('stylesheets')
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector:'textarea'
+        });
+    </script>
+    @stop
 
 @section('content')
 
@@ -16,7 +23,7 @@
                 {{ Form::text('slug',null,array('class'=>'form-control', 'required'=>'', 'minlength'=>'5','maxlength'=>'255')) }}
 
                 {{ Form::label('body', 'Body:') }}
-                {{ Form::textarea('body', null, array('class'=>'form-control','required'=>'')) }}
+                {{ Form::textarea('body', null, array('class'=>'form-control')) }}
 
                 {{ Form::submit('Create Post', array('class'=>'btn btn-success')) }}
             {!! Form::close() !!}
