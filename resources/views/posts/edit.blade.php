@@ -17,8 +17,9 @@
                 <div class="title-post">{{ Form::text('title', null, ['class'=>'form-control']) }}</div>
                 {{ Form::label('slug','Slug:') }}
                 <div class="tags-post">{{ Form::text('slug', null, ['class'=>'form-control']) }}</div>
-                {{ Form::label('tags','Tags:') }}
-                <div class="tags-post">Tags/Tags</div>
+
+                {{ Form::label('category_id','Categories:') }}
+                <div class="tags-post">{{ Form::select('category_id', $categories, null, ['class'=>'form-control']) }}</div>
                 <img src="css/witcher.png" alt="">
                 {{ Form::label('body','Body:') }}
                 <p>{{ Form::textarea('body',null, ['class'=>'form-control']) }}</p>

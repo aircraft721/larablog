@@ -26,10 +26,11 @@ Route::get('auth/logout','Auth\AuthController@getLogout');
 Route::get('blog/{slug}',['as'=>'posts.single',
     'uses'=>'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');
 
-
 Route::get('/contact', 'PagesController@getContact');
 Route::get('/about', 'PagesController@getAbout');
 Route::get('/', 'PagesController@getIndex');
+
+Route::resource('categories','CategoryController', ['except'=>['create']]);
 
 
 

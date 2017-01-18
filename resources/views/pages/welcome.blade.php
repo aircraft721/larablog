@@ -40,6 +40,14 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid blanditiis dolore earum eligendi error ex itaque laboriosam laborum nam officia omnis quas quis.?</p>
                 </div>
             </aside>
+
+            <div>
+                @foreach($posts as $post)
+                    <ul>
+                        <li><a href="">{{ $post->category->name }}</a></li>
+                    </ul>
+                @endforeach
+            </div>
         </div>
     </div>
 @stop
