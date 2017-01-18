@@ -20,7 +20,7 @@
                 <div class="title-post">{{ $post->title }}</div>
                 <div class="tags-post">Tags/Tags</div>
                 <img src="css/witcher.png" alt="">
-                <p>{{ $post->body }}</p>
+                <p>{!! $post->body !!}</p>
 
             </div>
 

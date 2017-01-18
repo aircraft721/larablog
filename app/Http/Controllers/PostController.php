@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Post;
 use Illuminate\Http\Request;
 use App\Http\Requests;
+use Mews\Purifier\Facades\Purifier;
 use Session;
 
 
@@ -43,7 +44,7 @@ class PostController extends Controller
         $post = new Post;
         $post->title = $request->title;
         $post->slug = $request->slug;
-        $post->body = $request->body;
+        $post->body = Purifier::clean($request->body);
         $post->save();
         //sessions
         Session::flash('success','The post was successfully saved');
@@ -87,7 +88,7 @@ class PostController extends Controller
         $post = Post::find($id);
         $post->title = $request->input('title');
         $post->slug = $request->input('slug');
-        $post->body = $request->input('body');
+        $post->body = Purifier::clean($request->input('body'));
         $post->save();
         //set flash data with success message
         Session::flash('success','This post was saved!');
