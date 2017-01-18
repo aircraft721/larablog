@@ -13,9 +13,9 @@
 
             <div class="post">
                 <div class="date-post">JANUARY 16, 2017</div>
-                <div class="title-post">{{ $post->title }}</div>
-                <div class="tags-post">Posted In:  </div>
-                <img src="css/witcher.png" alt="">
+                <h1 class="title-post">{{ $post->title }}</h1>
+
+                <img src="{{ asset('images/' . $post->image )}}" alt="">
                 <p>{!! $post->body !!}</p>
             </div>
 

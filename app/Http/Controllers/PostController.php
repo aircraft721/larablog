@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Mews\Purifier\Facades\Purifier;
 use Session;
+use Image;
 
 
 
@@ -45,6 +46,16 @@ class PostController extends Controller
         $post->title = $request->title;
         $post->slug = $request->slug;
         $post->body = Purifier::clean($request->body);
+
+
+        if($request->hasFile('featured_image')){
+            $image = $request->file('featured_image');
+            $filename = time() . '.' . $image->getClientOriginalExtension();
+            $location = public_path('images/' . $filename);
+            Image::make($image)->save($location);
+            $post->image = $filename;
+        }
+
         $post->save();
         //sessions
         Session::flash('success','The post was successfully saved');
