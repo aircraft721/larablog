@@ -18,6 +18,8 @@
             {{ Form::checkbox('remember') }}{{ Form::label('remember','Remember Me') }}
 
             {{ Form::submit('Login', ['class'=>'btn btn-primary btn-block']) }}
+
+            <a class="btn btn-default btn-block" href="{{ url('auth/register') }}">Register</a>
             {!! Form::close() !!}
         </div>
     </div>

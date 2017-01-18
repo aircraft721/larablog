@@ -13,9 +13,11 @@
 //Admin middleware
 Route::group(['middleware' => 'admin'], function() {
     Route::resource('posts', 'PostController');
-    Route::get('auth/register','Auth\AuthController@getRegister');
-    Route::post('auth/register','Auth\AuthController@postRegister');
+
 });
+
+Route::get('auth/register','Auth\AuthController@getRegister');
+Route::post('auth/register','Auth\AuthController@postRegister');
 //Authentication Routes
 Route::get('auth/login','Auth\AuthController@getLogin');
 Route::post('auth/login','Auth\AuthController@postLogin');

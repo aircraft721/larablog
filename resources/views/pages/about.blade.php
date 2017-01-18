@@ -1,7 +1,9 @@
 @extends('main')
 
 @section('title', '| About Page')
-
+@section('stylesheets')
+    <link href="{{ asset('css/blog.css') }}" rel="stylesheet" type="text/css">
+    @stop
 @section('content')
 
     <div class="row">
