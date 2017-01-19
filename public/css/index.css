@@ -2,6 +2,10 @@ body {
     padding-top: 50px;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .hero {
     height: 400px;
     background: url(hero.jpg);
@@ -40,7 +44,7 @@ body {
     content: "";
     display: block;
     margin: 0 auto;
-    width: 40%;
+    width: 35%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid orangered;
@@ -62,22 +66,19 @@ body {
 
 .date-post {
     text-align: center;
-    padding-bottom: 0.7em;
     padding-top: 3em;
     font-size: 12px;
     color: #858585;
+
 }
 
 .title-post {
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 
 }
 
-.tags-post {
-    text-align: center;
-    padding-bottom: 2em;
-}
+
 
 .post img {
     width: 100%;
@@ -99,11 +100,48 @@ body {
 }
 
 .read-more:hover{
-    background-color: orangered;
-    border-color: orangered;
+    background-color: #636770;
+    border-color: #636770;
 }
 
 .post {
-    margin-bottom: 5em;
+    margin-bottom: 5.5em;
+
 }
+
+.categories {
+    padding: 17px 0;
+}
+
+.categories ul {
+    list-style: none outside none;
+    border-top: 1px dashed #7b7b7b;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+.categories ul:last-child {
+    border-bottom: 1px dashed #7b7b7b;
+}
+
+.categories-title {
+    text-align: center;
+}
+
+
+.categories-title:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid orangered;
+}
+
+#first, #second, #third {
+    padding-bottom: 50px;
+}
+
+
+
 

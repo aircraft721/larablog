@@ -90,6 +90,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 {!! Html::script('js/parsley.min.js') !!}
+@yield('script')
 
 </body>
 </html>
