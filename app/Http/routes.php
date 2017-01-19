@@ -23,8 +23,14 @@ Route::get('auth/login','Auth\AuthController@getLogin');
 Route::post('auth/login','Auth\AuthController@postLogin');
 Route::get('auth/logout','Auth\AuthController@getLogout');
 //Registration Routes
-Route::get('blog/{slug}',['as'=>'posts.single',
+Route::get('blog/{slug}',['as'=>'blog.single',
     'uses'=>'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');
+
+Route::get('filter/{categories}',[
+    'as'=>'filter.index',
+    'uses'=>'FilterController@getIndex'
+]);
+
 
 Route::get('/contact', 'PagesController@getContact');
 Route::get('/about', 'PagesController@getAbout');

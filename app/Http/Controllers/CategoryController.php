@@ -18,6 +18,7 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = Category::all();
+
         return view('categories.index')->withCategories($categories);
     }
 
