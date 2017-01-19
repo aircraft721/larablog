@@ -42,11 +42,11 @@
             </aside>
 
             <div>
-                @foreach($posts as $post)
+                    @foreach($categories as $category)
                     <ul>
-                        <li><a href="">{{ $post->category->name }}</a></li>
+                        <li><a href="{{ url('filter' . '/' . $category->id ) }}">{{ $category->name }}</a></li>
                     </ul>
-                @endforeach
+                    @endforeach
             </div>
         </div>
     </div>
