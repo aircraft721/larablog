@@ -10,8 +10,10 @@ class PagesController extends Controller {
     public function getIndex(){
         $categories = Category::all();
 
-        $posts = Post::orderBy('created_at', 'desc')->paginate(5);
-        return view('pages.welcome')->withPosts($posts)->withCategories($categories);
+        $builder = Post::orderBy('created_at', 'desc');
+        $latest = $builder->take(5)->get();
+        $posts = $builder->paginate(5);
+        return view('pages.welcome')->withLatest($latest)->withPosts($posts)->withCategories($categories);
 
     }
 

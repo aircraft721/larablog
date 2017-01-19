@@ -53,15 +53,23 @@
                 </div>
             </div>
 
+                <div>
+
+                </div>
+
 
             <div id="third">
                 <h2 class="categories-title">Latest Posts</h2>
                 <div class="categories">
-                    @foreach($posts as $post)
-                        <ul>
-                            <li><a href="{{ url('blog' . '/' . $post->slug) }}">{{ $post->title }}</a></li>
-                        </ul>
-                        @endforeach
+                    @foreach($latest as $late)
+                    <ul>
+
+                            <li><a href="{{ url('blog' . '/' . $late->slug) }}">{{ $late->title }}</a></li>
+
+
+                    </ul>
+                    @endforeach
+
                 </div>
             </div>
 
