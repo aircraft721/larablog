@@ -20,6 +20,10 @@
 
                 {{ Form::label('category_id','Categories:') }}
                 <div class="tags-post">{{ Form::select('category_id', $categories, null, ['class'=>'form-control']) }}</div>
+
+                {{ Form::label('featured_image', 'Update Featured Image:') }}
+                {{ Form::file('featured_image') }}
+
                 <img src="css/witcher.png" alt="">
                 {{ Form::label('body','Body:') }}
                 <p>{{ Form::textarea('body',null, ['class'=>'form-control']) }}</p>

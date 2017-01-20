@@ -12,7 +12,7 @@ class PagesController extends Controller {
 
         $builder = Post::orderBy('created_at', 'desc');
         $latest = $builder->take(5)->get();
-        $posts = $builder->paginate(5);
+        $posts = $builder->paginate(4);
         return view('pages.welcome')->withLatest($latest)->withPosts($posts)->withCategories($categories);
 
     }

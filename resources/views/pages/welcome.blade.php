@@ -6,12 +6,7 @@
 
     @include('partials._hero')
 
-    <div class="row">
-        <div class="col-md-12">
-                <h1>Welcome to my Blog</h1>
 
-        </div>
-    </div>
 
     <div class="row">
         <div class="col-md-8">
@@ -81,4 +76,8 @@
     </div>
 
 @stop
+
+@section('footer')
+    @include('partials._footer')
+    @stop
 
