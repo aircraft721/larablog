@@ -11,6 +11,7 @@ body {
 
 p, h1, h2, h3, h4, ul, li, span, a{
     font-family: gt;
+    line-height: 1.45857143;
 
 }
 p {
@@ -190,20 +191,22 @@ a{
     color: black;
 }
 
-.meniu {
+#meniu {
     padding-right: 3px;
-    color: #636770;
-    font-size: 15px;
+    color: #7E8391;
+
 
 }
 
-.meniu a {
+#meniu a {
     transition: color 0.3s ease;
     letter-spacing: 2px;
     font-weight: 600;
+    font-size: 13px;
+    color: #7E8391;
 }
 
-.meniu a:hover {
+#meniu a:hover {
     color: black;
 }
 

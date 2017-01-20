@@ -58,7 +58,9 @@
     </div>
 </div>
 
+@stop
 
-
+@section('footer')
+    @include('partials._footer')
 @stop
 

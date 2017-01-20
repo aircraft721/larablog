@@ -16,7 +16,7 @@
                 {{ Form::label('title','Title:') }}
                 <div class="title-post">{{ Form::text('title', null, ['class'=>'form-control']) }}</div>
                 {{ Form::label('slug','Slug:') }}
-                <div class="tags-post">{{ Form::text('slug', null, ['class'=>'form-control']) }}</div>
+                {{ Form::text('slug', null, ['class'=>'form-control']) }}
 
                 {{ Form::label('category_id','Categories:') }}
                 <div class="tags-post">{{ Form::select('category_id', $categories, null, ['class'=>'form-control']) }}</div>
