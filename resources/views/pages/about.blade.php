@@ -7,9 +7,17 @@
 @section('content')
 
     <div class="row">
-        <div class="col-md-12 new-page">
+        <div class="col-md-6 col-md-offset-3">
             <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, assumenda atque cumque distinctio dolorem doloribus eligendi hic molestiae molestias natus, neque perferendis porro quasi repellendus reprehenderit repudiandae sunt tempora veniam.</p>
+            <p>Hello. My name is Dan Constantinescu and I currently live in Cluj-Napoca, Romania. I have finished the Faculty of Geography at
+                Babes Bolyai University and I have a master's degree in Geomatics.</p>
+            <p>Until last year (i.e. 2016) my work was focused on creating maps and 3d models after implementing methodologies to detect landslides, inundations or
+                deforestation. I have an advanced knowledge on working with softwares like:
+                ArcGis 10.1, Envi 5, Erdas Imagine 9, Hec-Ras 5, Global Mapper, Idrisi and Hyfran.</p>
+            <p>Last year (i.e. 2016) I started to learn the basics of Web Development (HTML, CSS, JS, PHP).
+                Now I focus mainly on learning and creating websites using frameworks like
+                Laravel, Vue.js and Sass. </p>
+            <p>P.S This website will be used only for testing purposes.</p>
         </div>
     </div>
 @stop
