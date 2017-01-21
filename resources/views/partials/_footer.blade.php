@@ -8,7 +8,7 @@
         </li>
 
         <li class="an">&#169;2017</li>
-        <span class="ans">Contact me at: <i class="fa fa-envelope" aria-hidden="true"></i></span>
+
 
     </ul>
 </footer>

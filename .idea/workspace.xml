@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="dc686252-b6a1-41dd-9f0b-c9c80dd2bc68" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index.css" afterPath="$PROJECT_DIR$/public/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/main.blade.php" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/_footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/_footer.blade.php" />
     </list>
     <ignored path="blog_f.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +36,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/index.css">
+      <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.592145">
-              <caret line="264" column="14" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
+            <state vertical-scroll-proportion="-18.0">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
+      <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.0">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76555717">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -56,18 +69,8 @@
       <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="42.407406">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/partials/_footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.4074075">
-              <caret line="4" column="119" selection-start-line="4" selection-start-column="119" selection-end-line="4" selection-end-column="119" />
+            <state vertical-scroll-proportion="-64.0">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -109,7 +112,6 @@
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Admin.php" />
-        <option value="$PROJECT_DIR$/public/css/blog.css" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/config/purifier.php" />
@@ -131,14 +133,15 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
         <option value="$PROJECT_DIR$/public/css/error.css" />
-        <option value="$PROJECT_DIR$/resources/views/partials/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/contact.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/index.css" />
+        <option value="$PROJECT_DIR$/resources/views/partials/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/index.css" />
+        <option value="$PROJECT_DIR$/public/css/blog.css" />
       </list>
     </option>
   </component>
@@ -157,8 +160,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1094" />
-    <option name="y" value="4" />
+    <option name="x" value="1028" />
+    <option name="y" value="61" />
     <option name="width" value="991" />
     <option name="height" value="879" />
   </component>
@@ -187,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,11 +263,31 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog_f" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog_f" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +296,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="about&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/about.blade.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/public/css/index.css&#10;main&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/main.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/edit.blade.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/PostController.php&#10;singl&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/blog/single.blade.php&#10;conta&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/contact.blade.php&#10;pos&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/PostController.php&#10;welc&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/blog/single.blade.php&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/show.blade.php&#10;pages&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/PagesController.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/index.blade.php&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;filt&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/FilterController.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/create.blade.php&#10;welcom&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;filter&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/routes.php&#10;wel&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/config/app.php&#10;purifier.ph&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/config/purifier.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/routes.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/auth/login.blade.php&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Middleware/Admin.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/blog/single.blade.php&#10;categ&#9;null&#9;null&#10;authentica&#9;null&#9;null&#10;auth&#9;null&#9;null&#10;blog&#9;null&#9;null&#10;edi&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/edit.blade.php&#10;welco&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;creat&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/create.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="conta&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/contact.blade.php&#10;about&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/about.blade.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/public/css/index.css&#10;main&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/main.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/edit.blade.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/PostController.php&#10;singl&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/blog/single.blade.php&#10;pos&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/PostController.php&#10;welc&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;sing&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/blog/single.blade.php&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/show.blade.php&#10;pages&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/PagesController.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/index.blade.php&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;filt&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Controllers/FilterController.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/create.blade.php&#10;welcom&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;filter&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/routes.php&#10;wel&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/config/app.php&#10;purifier.ph&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/config/purifier.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/routes.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/auth/login.blade.php&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/app/Http/Middleware/Admin.php&#10;single&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/blog/single.blade.php&#10;categ&#9;null&#9;null&#10;authentica&#9;null&#9;null&#10;auth&#9;null&#9;null&#10;blog&#9;null&#9;null&#10;edi&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/edit.blade.php&#10;welco&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/pages/welcome.blade.php&#10;creat&#9;FILE&#9;file://C:/xampp/htdocs/blog_f/resources/views/posts/create.blade.php" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="681" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="692" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -326,7 +367,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1094" y="4" width="991" height="879" extended-state="0" />
+    <frame x="1028" y="61" width="991" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -334,9 +375,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32573727" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -475,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -679,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.592592">
-          <caret line="23" column="105" selection-start-line="23" selection-start-column="105" selection-end-line="23" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4074074">
@@ -714,34 +741,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="42.407406">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state vertical-scroll-proportion="-77.07407">
+          <caret line="246" column="1" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partials/_footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4074075">
-          <caret line="4" column="119" selection-start-line="4" selection-start-column="119" selection-end-line="4" selection-end-column="119" />
+        <state vertical-scroll-proportion="0.6632948">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state vertical-scroll-proportion="-18.0">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/index.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.592145">
-          <caret line="264" column="14" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
+        <state vertical-scroll-proportion="-64.0">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76555717">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
           <folding />
         </state>
       </provider>
