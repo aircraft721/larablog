@@ -90,6 +90,7 @@ a{
 
 .about-image{
     display: flex;
+
     justify-content: center;
 }
 
