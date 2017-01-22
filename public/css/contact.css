@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#flexi {
+    width: 100vw;
+    height: calc(100vh - 250px);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    line-height: 50px;
+    color: #555;
+    border-radius: 10px;
+    background: #eee;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box:hover {
+    transition: .30s;
+    color: white;
+}
+
+
+#facebook:hover {
+    background-color: #3a5795;
+}
+#linkedin:hover {
+    background-color: #0e76a8
+}
+
+#github:hover {
+    background-color: #9CDAF0;
+}
+
+#outlook:hover {
+    background-color: #0072C6;
+}
+
+
+

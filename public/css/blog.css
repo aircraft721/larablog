@@ -1,5 +1,6 @@
-body {
-    padding-top: 100px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 .card-panel.hoverable {
@@ -85,5 +86,16 @@ p {
 span {
     letter-spacing: 1px;
 }
+
+#flexi {
+    width: 100vw;
+    height: calc(100vh - 250px);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 

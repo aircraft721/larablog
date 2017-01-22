@@ -49,7 +49,15 @@ a{
     margin-right: -15px;
 }
 
-.fa {
+.fa-sign-in {
+    color: orangered;
+    transition: color 0.3s ease;
+}
+.fa-sign-in:hover {
+    color: #000B27;
+}
+
+/*.fa {
     color: orangered;
     transition: color 0.5s ease;
 }
@@ -64,7 +72,7 @@ a{
 
 .fa-github:hover{
     color: #323131;
-}
+}*/
 
 .about-title {
     text-align: center;
@@ -244,11 +252,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 footer ul {
     list-style: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 footer ul li {
@@ -273,13 +287,21 @@ footer ul li {
     color: #7E8391;
 }
 
-.ans{
+.anss{
     position: absolute;
     left: 30px;
     padding-top: 20px;
-    font-size: 11px;
+    font-size: 10px;
     color: #7E8391;
     font-weight: 400;
+}
+
+
+.ans {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
 }
 
 .fa-envelope {

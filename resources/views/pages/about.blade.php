@@ -12,7 +12,7 @@
 
 @section('content')
 
-    <div class="row">
+    <div class="row" id="flexi">
 
         <div class="col-md-4">
             <div class="card-panel hoverable small" id="blue">

@@ -2,19 +2,23 @@
 
 @section('title', '| Contact Page')
 @section('stylesheets')
-    <link href="{{ asset('css/blog.css') }}" rel="stylesheet" type="text/css">
-@stop
-@section('content')
 
-    <div class="row">
-        <div class="col-md-12 new-page">
-            <h1>Contact me</h1>
-            <span>Hey there! To get in touch, <a href="mailto:dan_constantinescu@outlook.com">send me an email.</a></span>
-        </div>
+    <link href="{{ asset('css/contact.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+@stop
+@section('after-content')
+
+    <div id="flexi">
+        <a href="https://www.facebook.com/dan.constantinescu.9" class="box" id="facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+        <a href="https://github.com/aircraft721" class="box" id="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+        <a href="https://ro.linkedin.com/in/dan-constantinescu-3708b9116
+" class="box" id="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+        <a href="mailto:dan_constantinescu@outlook.com" class="box" id="outlook"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
     </div>
 
 @stop
 
+@section('footer')
 <footer class="footer navbar-fixed-bottom">
     <ul>
         <li>SITE CREATED BY DAN CONSTANTINESCU</li>
@@ -27,7 +31,9 @@
         </li>
 
         <li class="an">&#169;2017</li>
-        <span class="ans">Contact me at: <i class="fa fa-envelope" aria-hidden="true"></i></span>
+
 
     </ul>
 </footer>
+
+    @stop
