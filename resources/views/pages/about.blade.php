@@ -15,7 +15,7 @@
     <div class="row" id="flexi">
 
         <div class="col-md-4">
-            <div class="card-panel hoverable small" id="blue">
+            <div class="card-panel hoverable small blue1" id="blue">
                 <div class="card-panel-header">
                     <span class="card-panel-icon"><i class="material-icons">info</i></span>
                     <span class="card-panel-caption">About Me</span>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="col-md-4">
-            <div class="card-panel hoverable small darken-3" id="blue">
+            <div class="card-panel hoverable small darken-3 blue2" id="blue">
                 <div class="card-panel-header">
                     <span class="card-panel-icon"><i class="material-icons">school</i></span>
                     <span class="card-panel-caption">Education</span>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="col-md-4">
-            <div class="card-panel hoverable small" id="blue">
+            <div class="card-panel hoverable small blue3" id="blue">
                 <div class="card-panel-header">
                     <span class="card-panel-icon"><i class="material-icons">work</i></span></span>
                     <span class="card-panel-caption">Work Experience</span>
@@ -62,7 +62,7 @@
             <a href="http://vultr.com"><img class="laravel" src="{{ asset('css/vultrr.png') }}" alt="vultr hosting logo" /></a>
         </li>
 
-        <li class="an">&#169;2017</li>
+        <li class="ans">&#169;All rights reserved</li>
 
 
     </ul>

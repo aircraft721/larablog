@@ -30,7 +30,7 @@
             <a href="http://vultr.com"><img class="laravel" src="{{ asset('css/vultrr.png') }}" alt="vultr hosting logo" /></a>
         </li>
 
-        <li class="an">&#169;2017</li>
+        <li class="ans">&#169;All rights reserved</li>
 
 
     </ul>

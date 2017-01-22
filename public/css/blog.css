@@ -66,8 +66,20 @@ html, body {
 }
 
 #blue {
-    background-color: #000B27;
+    /*background-color: #72adcf;*/
     transition: box-shadow 0.3s ease;
+}
+
+.blue1 {
+    background-color: #A2B5C6;
+}
+
+.blue2 {
+    background-color: #78A9C2;
+}
+
+.blue3 {
+    background-color: #7C95AE;
 }
 
 #blue:hover {
@@ -94,6 +106,8 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 
