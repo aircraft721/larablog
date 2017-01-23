@@ -32,7 +32,7 @@
                 </div>
                 <h2 class="about-title">Who I am</h2>
                 <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid blanditiis dolore earum eligendi error ex itaque laboriosam laborum nam officia omnis quas quis.?</p>
+                    <p>My name is Dan. I'm a student living in Cluj-Napoca, Romania. Currently I spend my days learning and working in a few areas of web development from back end programming with Laravel to front end engineering with HTML, Sass and Vue.js.</p>
                 </div>
             </div>
 
@@ -48,9 +48,7 @@
                 </div>
             </div>
 
-                <div>
 
-                </div>
 
 
             <div id="third">

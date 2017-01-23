@@ -3,7 +3,8 @@
 @section('title','| $post->title')
 
 @section('stylesheets')
-    <link href="{{ asset('css/blog.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/index.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/single.css') }}" rel="stylesheet" type="text/css">
     @stop
 
 @section('content')
@@ -45,15 +46,43 @@
 
     <div class="col-md-3 col-md-offset-1">
         <aside class="aside-about">
-            <div class="about-image">
+            {{--<div class="about-image">
                 <img src="https://scontent.fomr1-1.fna.fbcdn.net/v/t1.0-9/11899774_920258304686774_1487613498998042374_n.jpg?oh=797ff8c431357f07b863c5f8fa11f9ca&oe=590DD683" alt="about the author" height="150" width="150">
             </div>
 
             <h2 class="about-title">Who I am</h2>
 
             <div class="about-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid blanditiis dolore earum eligendi error ex itaque laboriosam laborum nam officia omnis quas quis.?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid blanditiis dolore earum eligendi error ex itaque laboriosam laborum nam officia omnis quas quis.?</p>--}}
+
+            <div id="second">
+                <h2 class="categories-title">Categories</h2>
+                <div class="categories">
+
+                    @foreach($categories as $category)
+                        <ul>
+                            <li><a href="{{ url('filter' . '/' . $category->id ) }}">{{ $category->name }}</a></li>
+                        </ul>
+                    @endforeach
+                </div>
             </div>
+
+            <div id="third">
+                <h2 class="categories-title">Latest Posts</h2>
+                <div class="categories">
+                    @foreach($latest as $late)
+                        <ul>
+
+                            <li><a href="{{ url('blog' . '/' . $late->slug) }}">{{ $late->title }}</a></li>
+
+
+                        </ul>
+                    @endforeach
+
+                </div>
+            </div>
+
+
         </aside>
     </div>
 </div>

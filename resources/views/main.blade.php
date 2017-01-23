@@ -26,7 +26,8 @@
     <![endif]-->
 </head>
 <body>
-<div class="container">
+<div id="page-wrapper">
+<div class="container container1">
     <div class="row">
         <div class="col-md-12">
             <nav class="navbar navbar-default navbar-fixed-top navi">
@@ -83,7 +84,7 @@
 </div>
 
 @yield('after-content')
-
+</div>
 @yield('footer')
 
 
