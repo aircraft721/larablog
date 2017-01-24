@@ -13,9 +13,9 @@
             @foreach($posts as $post)
             <div class="post">
                 <div class="date-post">{{ strtoupper($post->created_at->toFormattedDateString()) }}</div>
-                <h1 class="title-post"><a href="{{ url('blog', $post->slug) }}">{{ $post->title }}</a></h1>
+                <h1 class="title-post"><a class="title_a" href="{{ url('blog', $post->slug) }}">{{ $post->title }}</a></h1>
 
-                <img src="{{ asset('images/' . $post->image )}}" alt="">
+                <a href="{{ url('blog', $post->slug) }}"><img src="{{ asset('images/' . $post->image )}}" alt="post image"></a>
                 <p>{{ str_limit(strip_tags($post->body),310) }}{{ strlen(strip_tags($post->body))>310 ? '' : '' }}</p>
                 <a href="{{ url('blog', $post->slug) }}" class="btn btn-primary btn-sm read-more center-block">Read More</a>
             </div>

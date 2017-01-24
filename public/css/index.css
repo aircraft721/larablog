@@ -309,3 +309,11 @@ footer>ul>li {
     right: 0;
 }
 
+.title_a {
+    text-decoration: none;
+    color: #000B27 !important;
+}
+
+.title_a:hover {
+    color: #000B27 !important;
+}
