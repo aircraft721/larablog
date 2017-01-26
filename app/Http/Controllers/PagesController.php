@@ -25,5 +25,9 @@ class PagesController extends Controller {
         return view('pages.contact');
     }
 
+    public function google(){
+        return view('/googlee32eb5c6a574265c.html');
+    }
+
 
 }
