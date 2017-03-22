@@ -41,7 +41,7 @@
                     <span class="card-panel-caption">Work Experience</span>
                 </div>
                 <p class="card-panel-content">Until last year (i.e. 2016) my work was focused on creating maps and 3D models after implementing methodologies to detect landslides, inundations or deforestations. I have an advanced knowledge on working with softwares like: ArcGis 10.1, Envi 5, Erdas Imagine 9, Hec-Ras 5, Global Mapper, Idrisi and Hyfran.
-                    Now I focus mainly on learning and creating websites using frameworks like Laravel, Vue.js and Sass.
+                    Now I focus mainly on learning and creating websites using frameworks like Laravel, JS and Sass. In the last months I've started to learn the basics of e-commerce websites on platforms like Magento 2 and woocommerce and continue making static websites with a very friendly and powerful tool, Webflow.
                 </p>
             </div>
         </div>

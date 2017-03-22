@@ -32,7 +32,7 @@
                 </div>
                 <h2 class="about-title">Who I am</h2>
                 <div class="about-text">
-                    <p>My name is Dan. I'm a student living in Cluj-Napoca, Romania. Currently I spend my days learning and working in a few areas of web development from back end programming with Laravel to front end engineering with HTML, Sass and Vue.js.</p>
+                    <p>My name is Dan. I'm a student living in Cluj-Napoca, Romania. Currently I spend my days learning and working in a few areas of web development from back end programming with Laravel to front end engineering with HTML, Sass and JS. My future objective is to learn more about e-commerce platforms like Magento 2 and woocommerce. </p>
                 </div>
             </div>
 
