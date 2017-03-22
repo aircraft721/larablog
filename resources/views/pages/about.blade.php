@@ -20,7 +20,7 @@
                     <span class="card-panel-icon"><i class="material-icons">info</i></span>
                     <span class="card-panel-caption">About Me</span>
                 </div>
-                <p class="card-panel-content">My name is Dan Constantinescu. I'm a student living in Cluj-Napoca, Romania. Currently I spend my days learning and working in a few areas of web development from back end programming (PHP/Laravel) to front end engineering (HTML, CSS/Sass and JS/Vue.js).</p>
+                <p class="card-panel-content">My name is Dan Constantinescu. I'm a student living in Cluj-Napoca, Romania. Currently I spend my days learning and working in a few areas of web development from back end programming with PHP(Laravel, Wordpress with woocommerce, Magento 2) to front end engineering (HTML, CSS/Sass and JS).</p>
             </div>
         </div>
 
