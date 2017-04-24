@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-8">
             <div class="post">
-                <div class="date-post">JANUARY 16, 2017</div>
+                <div class="date-post">{{ strtoupper($post->created_at->toFormattedDateString()) }}</div>
                 <div class="title-post">{{ $post->title }}</div>
 
                 <img src="{{ asset('images/' . $post->image )}}" alt="">

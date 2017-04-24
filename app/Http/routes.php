@@ -13,7 +13,6 @@
 //Admin middleware
 Route::group(['middleware' => 'admin'], function() {
     Route::resource('posts', 'PostController');
-
 });
 
 Route::get('auth/register','Auth\AuthController@getRegister');
